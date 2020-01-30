@@ -9,26 +9,6 @@ public class Car {
 		
 	}
 		
-	public int getNoOfGears() {
-		return noOfGears;
-	}
-
-
-	public void setNoOfGears(int noOfGears) {
-		this.noOfGears = noOfGears;
-	}
-
-
-	public int getNoOfWheels() {
-		return noOfWheels;
-	}
-
-
-	public void setNoOfWheels(int noOfWheels) {
-		this.noOfWheels = noOfWheels;
-	}
-
-
 	public static class Builder {
 		
 		private int noOfGears ;
@@ -54,6 +34,26 @@ public class Car {
 		
 		
 	}
+	
+	public int getNoOfGears() {
+		return noOfGears;
+	}
+
+
+	public void setNoOfGears(int noOfGears) {
+		this.noOfGears = noOfGears;
+	}
+
+
+	public int getNoOfWheels() {
+		return noOfWheels;
+	}
+
+
+	public void setNoOfWheels(int noOfWheels) {
+		this.noOfWheels = noOfWheels;
+	}
+
 	
 	@Override
 	public String toString() {
